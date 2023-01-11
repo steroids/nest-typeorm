@@ -1,4 +1,4 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm-steroids';
+import { Column, Entity, PrimaryGeneratedColumn } from '@steroidsjs/typeorm';
 
 @Entity()
 export class Photo {

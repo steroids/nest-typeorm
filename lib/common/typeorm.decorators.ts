@@ -1,5 +1,5 @@
 import { Inject } from '@nestjs/common';
-import { DataSource, DataSourceOptions } from 'typeorm-steroids';
+import { DataSource, DataSourceOptions } from '@steroidsjs/typeorm';
 import { EntityClassOrSchema } from '../interfaces/entity-class-or-schema.type';
 import { DEFAULT_DATA_SOURCE_NAME } from '../typeorm.constants';
 import {

@@ -1,4 +1,4 @@
-import { EntitySchema } from 'typeorm-steroids';
+import { EntitySchema } from '@steroidsjs/typeorm';
 import { Photo } from '../photo.entity';
 
 export const PhotoWithoutTargetSchema = new EntitySchema<Photo>({

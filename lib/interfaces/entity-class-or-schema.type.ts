@@ -1,3 +1,3 @@
-import { EntitySchema } from 'typeorm-steroids';
+import { EntitySchema } from '@steroidsjs/typeorm';
 
 export type EntityClassOrSchema = Function | EntitySchema;

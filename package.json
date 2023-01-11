@@ -1,6 +1,6 @@
 {
   "name": "@steroidsjs/nest-typeorm",
-  "version": "9.0.1",
+  "version": "9.0.1-beta.1",
   "description": "Nest - modern, fast, powerful node.js web framework (@typeorm)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
@@ -30,6 +30,7 @@
     "@types/uuid": "9.0.0",
     "@typescript-eslint/eslint-plugin": "5.48.1",
     "@typescript-eslint/parser": "5.48.1",
+    "@steroidsjs/typeorm": "^0.3.11",
     "eslint": "8.31.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-import": "2.26.0",
@@ -44,7 +45,6 @@
     "rxjs": "7.8.0",
     "supertest": "6.3.3",
     "ts-jest": "29.0.3",
-    "typeorm-steroids": "^0.3.11-beta1",
     "typescript": "4.9.4"
   },
   "dependencies": {

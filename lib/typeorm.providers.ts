@@ -1,5 +1,5 @@
 import { Provider } from '@nestjs/common';
-import { DataSource, DataSourceOptions, getMetadataArgsStorage } from 'typeorm-steroids';
+import { DataSource, DataSourceOptions, getMetadataArgsStorage } from '@steroidsjs/typeorm';
 import { getDataSourceToken, getRepositoryToken } from './common/typeorm.utils';
 import { EntityClassOrSchema } from './interfaces/entity-class-or-schema.type';
 

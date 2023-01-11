@@ -1,4 +1,4 @@
-import { EntityRepository, Repository } from 'typeorm-steroids';
+import { EntityRepository, Repository } from '@steroidsjs/typeorm';
 import { Photo } from './photo.entity';
 
 @EntityRepository(Photo)

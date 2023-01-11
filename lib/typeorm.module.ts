@@ -1,5 +1,5 @@
 import { DynamicModule, Module } from '@nestjs/common';
-import { DataSource, DataSourceOptions } from 'typeorm-steroids';
+import { DataSource, DataSourceOptions } from '@steroidsjs/typeorm';
 import { EntitiesMetadataStorage } from './entities-metadata.storage';
 import { EntityClassOrSchema } from './interfaces/entity-class-or-schema.type';
 import {

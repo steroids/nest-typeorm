@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Repository } from 'typeorm-steroids';
+import { Repository } from '@steroidsjs/typeorm';
 import { InjectRepository } from '../../../../lib';
 import { Photo } from '../photo.entity';
 import { CustomPhotoSchemaRepository } from './photo-schema.repository';

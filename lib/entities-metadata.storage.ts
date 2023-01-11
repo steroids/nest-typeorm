@@ -1,4 +1,4 @@
-import { DataSource, DataSourceOptions } from 'typeorm-steroids';
+import { DataSource, DataSourceOptions } from '@steroidsjs/typeorm';
 import { EntityClassOrSchema } from './interfaces/entity-class-or-schema.type';
 
 type DataSourceToken = DataSource | DataSourceOptions | string;

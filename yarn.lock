@@ -800,6 +800,29 @@
   resolved "https://registry.yarnpkg.com/@sqltools/formatter/-/formatter-1.2.5.tgz#3abc203c79b8c3e90fd6c156a0c62d5403520e12"
   integrity sha512-Uy0+khmZqUrUGm5dmMqVlnvufZRSK0FbYzVgp0UMstm+F5+W2/jnEEQyc9vo1ZR/E5ZI/B1WjjoTqBqwJL6Krw==
 
+"@steroidsjs/typeorm@^0.3.11":
+  version "0.3.11"
+  resolved "https://registry.yarnpkg.com/@steroidsjs/typeorm/-/typeorm-0.3.11.tgz#09f0050664f03d1bb0fc05282cffe4fd8d0b2c45"
+  integrity sha512-MR8kHKHrbey5fUCl3P2PQkltTS7THoFlH1t3L4isDYMFmbLAZyW6n+MEE/g0x/+Uj/hfLbB0FDeJggVhqlk75g==
+  dependencies:
+    "@sqltools/formatter" "^1.2.2"
+    app-root-path "^3.0.0"
+    buffer "^6.0.3"
+    chalk "^4.1.0"
+    cli-highlight "^2.1.11"
+    date-fns "^2.28.0"
+    debug "^4.3.3"
+    dotenv "^16.0.0"
+    glob "^7.2.0"
+    js-yaml "^4.1.0"
+    mkdirp "^1.0.4"
+    reflect-metadata "^0.1.13"
+    sha.js "^2.4.11"
+    tslib "^2.3.1"
+    uuid "^8.3.2"
+    xml2js "^0.4.23"
+    yargs "^17.3.1"
+
 "@szmarczak/http-timer@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@szmarczak/http-timer/-/http-timer-5.0.1.tgz#c7c1bf1141cdd4751b0399c8fc7b8b664cd5be3a"
@@ -5514,29 +5537,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
-
-typeorm-steroids@^0.3.11-beta1:
-  version "0.3.11-beta1"
-  resolved "https://registry.yarnpkg.com/typeorm-steroids/-/typeorm-steroids-0.3.11-beta1.tgz#2896059971f3456a8f0d037dd6e6d293ea81a78d"
-  integrity sha512-VR/ypTNutaOBXHTLfExeBlNZuJT/BjuzCb/rrlFgMScxoPdjUigiD1CP2Y7c0JkJdFcGoqGNStl1XMlLQVaDlg==
-  dependencies:
-    "@sqltools/formatter" "^1.2.2"
-    app-root-path "^3.0.0"
-    buffer "^6.0.3"
-    chalk "^4.1.0"
-    cli-highlight "^2.1.11"
-    date-fns "^2.28.0"
-    debug "^4.3.3"
-    dotenv "^16.0.0"
-    glob "^7.2.0"
-    js-yaml "^4.1.0"
-    mkdirp "^1.0.4"
-    reflect-metadata "^0.1.13"
-    sha.js "^2.4.11"
-    tslib "^2.3.1"
-    uuid "^8.3.2"
-    xml2js "^0.4.23"
-    yargs "^17.3.1"
 
 typescript@4.9.4:
   version "4.9.4"
