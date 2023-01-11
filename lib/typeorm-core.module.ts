@@ -15,7 +15,7 @@ import {
   createConnection,
   DataSource,
   DataSourceOptions,
-} from 'typeorm';
+} from 'typeorm-steroids';
 import {
   generateString,
   getDataSourceName,

@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { DataSource } from 'typeorm';
+import { DataSource } from 'typeorm-steroids';
 import { TypeOrmModule } from '../../lib';
 import { Photo } from './photo/photo.entity';
 import { PhotoModule } from './photo/photo.module';

@@ -9,7 +9,7 @@ import {
   EntityManager,
   EntitySchema,
   Repository,
-} from 'typeorm';
+} from 'typeorm-steroids';
 import { v4 as uuid } from 'uuid';
 import { CircularDependencyException } from '../exceptions/circular-dependency.exception';
 import { EntityClassOrSchema } from '../interfaces/entity-class-or-schema.type';

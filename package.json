@@ -1,10 +1,10 @@
 {
-  "name": "@nestjs/typeorm",
+  "name": "nest-typeorm-steroids",
   "version": "9.0.1",
   "description": "Nest - modern, fast, powerful node.js web framework (@typeorm)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
-  "url": "https://github.com/nestjs/typeorm#readme",
+  "url": "https://github.com/steroids/nest-typeorm",
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.json",
     "format": "prettier --write \"**/*.ts\"",
@@ -20,8 +20,6 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.4.1",
-    "@commitlint/config-angular": "17.4.0",
     "@nestjs/common": "9.2.1",
     "@nestjs/core": "9.2.1",
     "@nestjs/platform-express": "9.2.1",
@@ -46,7 +44,7 @@
     "rxjs": "7.8.0",
     "supertest": "6.3.3",
     "ts-jest": "29.0.3",
-    "typeorm": "0.3.11",
+    "typeorm-steroids": "^0.3.11-beta1",
     "typescript": "4.9.4"
   },
   "dependencies": {
