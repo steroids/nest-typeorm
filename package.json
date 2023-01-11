@@ -1,5 +1,5 @@
 {
-  "name": "nest-typeorm-steroids",
+  "name": "@steroidsjs/nest-typeorm",
   "version": "9.0.1",
   "description": "Nest - modern, fast, powerful node.js web framework (@typeorm)",
   "author": "Kamil Mysliwiec",
