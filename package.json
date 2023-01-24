@@ -1,6 +1,6 @@
 {
   "name": "@steroidsjs/nest-typeorm",
-  "version": "9.0.1-beta.1",
+  "version": "9.0.2",
   "description": "Nest - modern, fast, powerful node.js web framework (@typeorm)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
