@@ -1,6 +1,6 @@
 {
   "name": "@steroidsjs/nest-typeorm",
-  "version": "10.0.2",
+  "version": "10.0.3",
   "description": "Nest - modern, fast, powerful node.js web framework (@typeorm)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
@@ -46,7 +46,7 @@
     "rxjs": "7.8.1",
     "supertest": "6.3.4",
     "ts-jest": "29.1.2",
-    "typeorm": "0.3.20",
+    "@steroidsjs/typeorm": "0.3.23",
     "typescript": "5.4.5"
   },
   "dependencies": {
@@ -57,7 +57,7 @@
     "@nestjs/core": "^8.0.0 || ^9.0.0 || ^10.0.0",
     "reflect-metadata": "^0.1.13 || ^0.2.0",
     "rxjs": "^7.2.0",
-    "typeorm": "^0.3.0"
+    "@steroidsjs/typeorm": "^0.3.23"
   },
   "lint-staged": {
     "**/*.{ts,json}": []
